@@ -1,8 +1,9 @@
-import { checkAgainstRules } from "../lib/middleware/express";
+import SchemaValidation from "../lib/schemaValidation";
 
-describe("middleware tests", () => {
-    it("should read a json file", () => {
-        const rules = checkAgainstRules();
-        expect(true).toBeFalsy();
-    });
+describe("SchemaValidation", () => {
+  let schemaValidation;
+  beforeEach(() => {
+    schemaValidation = new SchemaValidation();
+  });
+  it("");
 });

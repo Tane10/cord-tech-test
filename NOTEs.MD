@@ -47,3 +47,9 @@ Errors with most probly generated dynamically
 - How to handle json node searching?? Search algorithms or linked lists or something
 - How to match **req.method** with the key of the Schema ?
 - Handle required fields separately then check none required
+
+---
+
+- if no rules for request than valid -> DONE
+- if no params in rules than validate -> DONE
+- c
