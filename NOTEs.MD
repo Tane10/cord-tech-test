@@ -52,4 +52,16 @@ Errors with most probly generated dynamically
 
 - if no rules for request than valid -> DONE
 - if no params in rules than validate -> DONE
-- c
+
+---
+
+TODO:
+
+- working on extracting the required params and validate them
+- working on checking normal params
+
+// need to handle the parmeter checking in a reuseable way
+// just use thi
+
+// All we care about it "in -> query", "name", "type"
+// if body -> schema -> type -> required -> properties -> key(account_id) -> val(type)
